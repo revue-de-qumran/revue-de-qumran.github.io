@@ -42,7 +42,7 @@
 
             
         </v-col>
-        <v-col  class="bg-secondary-darken-1" col="12"  md="2">
+        <v-col  class="bg-secondary-darken-2" col="12"  md="2">
         </v-col>
     </v-row>
 

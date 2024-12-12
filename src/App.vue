@@ -8,7 +8,16 @@
     > <!-- or, instead of prominent, add style="padding: 10px 0;" -->
 
     <!-- Toogle pour le choix du thème -->
-      <v-btn @click="toggleTheme">Toggle Theme</v-btn>
+      <!-- <v-btn @click="toggleTheme">Toggle Theme</v-btn> -->
+
+    <!-- Menu déroulant choix thème -->
+    <v-select
+          v-model="selectedTheme"
+          :items="myThemes"
+          label="Select Theme"
+          @update:modelValue="setTheme()"
+        />
+
 
     <!-- logo -->
     <v-container class="d-flex justify-center align-center" style="height: 100%;">
@@ -85,21 +94,36 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import { ref } from "vue"
+import { useTheme } from "vuetify"
+
+const theme = useTheme();
+const myThemes = ["light", "dark", "custom_theme"];
+const selectedTheme = ref(myThemes[0]);
+
+const setTheme = () => {
+  theme.global.name.value = selectedTheme.value;
+  console.log(selectedTheme.value);
+};
 </script>
 
 <script>
-
 export default {
   methods: {
-    toggleTheme() {
-      const currentTheme = this.$vuetify.theme.global.name;
-      this.$vuetify.theme.global.name = currentTheme === 'light' ? 'dark' : 'light';
-    },
+    // toggleTheme() {
+    //   const currentTheme = this.$vuetify.theme.global.name;
+    //   this.$vuetify.theme.global.name = currentTheme === 'light' ? 'dark' : 'light';
+    // },
+
+    //changeTheme() {
+    //  this.$vuetify.theme.global.name = selectedTheme;
+    //}
   },
   name: "App",
   data() {
     return {
       appTitle: 'Welcome !',
+      //currentTheme: ref(this.$vuetify.theme.global.name),
       drawer: false, // Contrôle de l'état du menu burger
       menuItems: [
         { title: 'History', path: '/history', icon: 'mdi-history' },
@@ -111,13 +135,16 @@ export default {
         { title: 'Cahiers', path: '/cahiers', icon: 'mdi-book-open-blank-variant' },
         { title: 'Contact', path: '/contact', icon: 'mdi-email' },
       ],
+      //selectedTheme: 'light',
+      //themes:['light', 'dark']
     }
   },
 };
+
 </script>
 
 <style scoped>
 .bg {
-  background: url('./assets/background-pattern.png');
+  background: url('./assets/background_white_pattern.jpg');
 }
 </style>  

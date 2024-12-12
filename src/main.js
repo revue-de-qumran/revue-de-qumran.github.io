@@ -23,94 +23,37 @@ const vuetify = createVuetify({
     themes: {
       light: {
         colors: {
-          background: '#FFFFFF',
-          surface: '#FFFFFF',
-          'surface-bright': '#FFFFFF',
-          'surface-light': '#EEEEEE',
-          'surface-variant': '#424242',
-          'on-surface-variant': '#EEEEEE',
-
-
-          // primary: colors.pink.darken4, // blue nova 825
-          // 'primary-darken-1': colors.purple.base,
-          // secondary: colors.pink.base, //Hazy Lilac
-          // 'secondary-darken-1': colors.red.base,
-
-          //Pantone Classic Blue 2020
-          // primary: 'rgb(167, 97, 125)', // blue nova 825
-          // 'primary-darken-1': 'rgb(52, 84 ,139)',
-          // secondary: 'rgb(206, 168, 190)', //Hazy Lilac
-          //'secondary-darken-1': 'rgb(196,187,186)',
-          
-
-          //White, purple, and orange
-          // primary: '#C53678',
-          // 'primary-darken-1': '#FF5841',
-          // secondary: '#FFFFFF',
-          // 'secondary-darken-1': '#FFFFFF',
-
           //Blue nova https://www.benjaminmoore.com/en-us/paint-colors/color-of-the-year-2024
           primary: '#5b6d92', // blue nova 825
           'primary-darken-1': 'rgb(54, 64, 66)', //regent Green
           secondary: '#9b8e9c', //Hazy Lilac
-          'secondary-darken-1': 'rgb(140, 138, 123)', //Polar Sky
-          error: '#B00020',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FB8C00',
+          'secondary-darken-1': 'rgb(140, 138, 123)', //Antique Pewter
+          'secondary-darken-2': '#cbdde2', //Polar Sky
         },
       },
       dark: {
         colors: {
-          background: '#FFFFFF',
-          surface: '#FFFFFF',
-          'surface-bright': '#FFFFFF',
-          'surface-light': '#EEEEEE',
-          'surface-variant': '#424242',
-          'on-surface-variant': '#EEEEEE',
-          //Uniquely Balanced
-          
-          primary: '#ca80b1', // Barbie Pink
-          'primary-darken-1': '#9c4c8d', //Mauve Shadows
-          secondary: '##d0baba', //Pink Marshmallow
+          //Uniquely Balanced Pantone 2025
+          primary: '#ca80b1', 
+          'primary-darken-1': '#9c4c8d', 
+          secondary: '##d0baba', 
           'secondary-darken-1': '#a37864',
-
-
-          // Barbie mood
-          // primary: 'rgb(218, 26, 132)', // Barbie Pink
-          // 'primary-darken-1': 'rgb(181, 152, 164)', //Mauve Shadows
-          // secondary: 'rgb(247, 224, 232)', //Pink Marshmallow
-          // 'secondary-darken-1': 'rgb(247, 224, 232)',
-
-
-          //taupe, beige -> calme et réconfortant
-          // primary: '#8a737d',
-          // 'primary-darken-1': '#d2b1a2',
-          // secondary: '#d3c4c4',
-
-          
-          error: '#B00020',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FB8C00',
         },
       },
-      custom_theme: {
+      Barbie: {
         colors: {
-          background: '#FFFFFF',
-          surface: '#FFFFFF',
-          'surface-bright': '#FFFFFF',
-          'surface-light': '#EEEEEE',
-          'surface-variant': '#424242',
-          'on-surface-variant': '#EEEEEE',
+          primary: 'rgb(218, 26, 132)', // Barbie Pink
+          'primary-darken-1': 'rgb(181, 152, 164)', //Mauve Shadows
+          secondary: 'rgb(247, 224, 232)', //Pink Marshmallow
+          'secondary-darken-1': 'rgb(247, 224, 232)',
+        },
+      },
+      Taupe_beige: {
+        colors: {
           primary: '#8a737d',
           'primary-darken-1': '#d2b1a2',
           secondary: '#d3c4c4',
           'secondary-darken-1': '#018786',
-          error: '#B00020',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FB8C00',
         },
       },
     },
@@ -123,3 +66,45 @@ const app = createApp(App)
 app.use(router)
 app.use(vuetify)
 app.mount('#app')
+
+
+
+// Complete model of theme
+//
+// const myCustomLightTheme = {
+//   dark: false,
+//   colors: {
+//     background: '#FFFFFF',
+//     surface: '#FFFFFF',
+//     'surface-bright': '#FFFFFF',
+//     'surface-light': '#EEEEEE',
+//     'surface-variant': '#424242',
+//     'on-surface-variant': '#EEEEEE',
+//     primary: '#1867C0',
+//     'primary-darken-1': '#1F5592',
+//     secondary: '#48A9A6',
+//     'secondary-darken-1': '#018786',
+//     error: '#B00020',
+//     info: '#2196F3',
+//     success: '#4CAF50',
+//     warning: '#FB8C00',
+//   },
+//   variables: {
+//     'border-color': '#000000',
+//     'border-opacity': 0.12,
+//     'high-emphasis-opacity': 0.87,
+//     'medium-emphasis-opacity': 0.60,
+//     'disabled-opacity': 0.38,
+//     'idle-opacity': 0.04,
+//     'hover-opacity': 0.04,
+//     'focus-opacity': 0.12,
+//     'selected-opacity': 0.08,
+//     'activated-opacity': 0.12,
+//     'pressed-opacity': 0.12,
+//     'dragged-opacity': 0.08,
+//     'theme-kbd': '#212529',
+//     'theme-on-kbd': '#FFFFFF',
+//     'theme-code': '#F5F5F5',
+//     'theme-on-code': '#000000',
+//   }
+// }
