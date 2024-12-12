@@ -1,8 +1,8 @@
 <template>
 
         <v-img class="m-0" src="/src/assets/sl-1.jpg"></v-img>
-        <v-row justify="center" class="pa-12 ma-12 bg-grey">
-            <v-col class="bg-red">
+        <v-row justify="center" class="pa-12 ma-12 bg-secondary">
+            <v-col >
 
             <h1>La revue de Qumrân</h1>
             <p>Revue de Qumrân was founded by Jean Carmignac in 1958. It is an International leading journal dedicated to the study of the Dead Sea Scrolls and the significance of these manuscripts for our understanding of the Ancient Near East in the Hellenistic and Roman period. Whether it concerns ancient Jewish or Christian litterature, history, archaeology or epigraphy.</p>

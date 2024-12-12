@@ -4,7 +4,7 @@
 
         </v-col>
 
-        <v-col class="bg-pink pa-16 text-justify" cols="5">
+        <v-col class="pa-16 text-justify" cols="5">
 
         
         <h1>History</h1>
