@@ -28,3 +28,5 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+/src/assets/data/rdq_dataset_2024.jsonl
