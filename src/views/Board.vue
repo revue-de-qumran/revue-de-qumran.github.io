@@ -1,10 +1,10 @@
 <template>
 
-    <v-row justify="center">
-        <v-col class="bg-red">
+    <v-row justify="center" class="d-flex flex-column flex-md-row">
+        <v-col class="bg-secondary-darken-1"  col="12" md="2">
         </v-col>
-        <v-col class="bg-pink pa-16" cols="8">
-            <!-- <v-sheet class="bg-pink ma-5"> -->
+        <v-col class="bg-secondary-darken-2 pa-16" col="12"  md="8">
+
                 <h1>Editorial Board</h1>
                 <br />
                 <h2>Directrice de la Revue</h2>
@@ -24,7 +24,7 @@
                 Katell Berthelot, CNRS/Aix-Marseille Université<br />
                 George J. Brooke, University of Manchester<br />
                 John J. Collins, Yale University<br />
-                Florentino García Martínez MARTINEZ, KU Leuven<br />
+                Florentino García Martínez, KU Leuven<br />
                 Charlotte Hempel, University of Birmingham<br />
                 Anja Klein, University of Edinburgh<br />
                 Corrado Martone, Università degli Studi di Torino<br />
@@ -34,16 +34,18 @@
                 Émile Puech, CNRS<br />
                 Michael Segal, The Hebrew University of Jerusalem<br />
                 Annette Steudel, Universität Göttingen<br />
-                Olivia Stewart Lester, Loyola University<br />
-                Chicago Eibert Tigchelaar, KU Leuven<br />
+                Olivia Stewart Lester, Loyola University Chicago<br />
+                Eibert Tigchelaar, KU Leuven<br />
                 Julio Trebolle Barrera, Universidad Complutense de Madrid<br />
                 Elissa Uusimäki, Aarhus University<br />
                 </p>
-            <!-- </v-sheet> -->
+
+            
         </v-col>
-        <v-col class="bg-purple">
+        <v-col  class="bg-secondary" col="12"  md="2">
         </v-col>
     </v-row>
+
 </template>
 
 <script>

@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Qumran Digital Project",
+        "description": "The main goal of this website is to develop a philological dictionary that encompasses the entire vocabulary of the Dead Sea Scrolls texts and processes the material etymologically, morphologically, and semantically. The dictionary thus bridges the previously little-researched gap between Biblical and Rabbinic Hebrew and Aramaic. At the same time, it serves as the basis for the so-called reverse dictionary.",
+        "link": "https://lexicon.qumran-digital.org/v1/index.html#dictionary-iframe",
+        "imglink": "/src/assets/qd.png"
+    },
+    {
+        "title": "Leon Levy Dead Sea Scrolls Digital Library",
+        "description": "The Leon Levy Dead Sea Scrolls Digital Library offers an exceptional encounter with antiquity. Using the world's most advanced imaging technology, the Digital Library preserves thousands of scroll fragments, including the oldest known copies of biblical texts, now accessible to the public for the first time.",
+        "link": "https://www.deadseascrolls.org.il/explore-the-archive",
+        "imglink": "/src/assets/leonlevy.png"
+    },
+    {
+        "title": "The Digital Dead Sea Scrolls (the Israel Museum)",
+        "description": "The Israel Museum welcomes you to the Dead Sea Scrolls Digital Project, allowing users to examine and explore these most ancient manuscripts from Second Temple times at a level of detail never before possible. Developed in partnership with Google, the new website gives users access to searchable, fast-loading, high-resolution images of the scrolls, as well as short explanatory videos and background information on the texts and their history. The Dead Sea Scrolls, which include the oldest known biblical manuscripts in existence, offer critical insight into Jewish society in the Land of Israel during the Second Temple Period, the time of the birth of Christianity and Rabbinic Judaism. Five complete scrolls from the Israel Museum have been digitized for the project at this stage and are now accessible online.",
+        "link": "http://dss.collections.imj.org.il/",
+        "imglink": "/src/assets/digitdss.png"
+    },
+    {
+        "title": "Scripta Qumranica Electronica",
+        "description": "The Scripta Qumranica Electronica (SQE) is a German-Israeli cooperation financed through the German-Israeli Project (DIP) of the German Research Foundation (DFG). It links together the Leon Levy Dead Sea Scrolls Digital Library of the IAA and the Qumran-Lexicon-project of the Gottingen Academy of Sciences and Humanities, together with computer aided tools developed by the Tel-Aviv University. The platform enables scholars around the world to work together simultaneousy.",
+        "link": "https://sqe.deadseascrolls.org.il/",
+        "imglink": "/src/assets/sqe.png"
+
+    },
+    {
+        "title": "The Dead Sea Scrolls in Text-Fabric",
+        "description": "This repo contains transcriptions of biblical and non-biblical Dead Sea Scrolls with linguistic annotations. This dataset is developed as part of the CACCHT project, which is a collaboration of Martijn Naaijer, Christian Canu Højgaard, Martin Ehrensvärd, Robert Rezetko, Oliver Glanz, and Willem van Peursen. The goal of CACCHT is to prepare and publish ancient Semitic texts digitally, that can be used for research and education.",
+        "link": "https://github.com/ETCBC/dss",
+        "imglink": "/src/assets/tf-dss.png"
+
+    },
+    {
+        "title": "The Orion Center Bibliography",
+        "description": "The Orion Center Bibliography of the Dead Sea Scrolls and Associated Literature is a comprehensive bibliography of the field of Dead Sea Scrolls research. The bibliography is updated annually and contains thousands of entries. The bibliography is a project of the Orion Center for the Study of the Dead Sea Scrolls and Associated Literature at the Hebrew University of Jerusalem.",
+        "link": "https://orion.huji.ac.il/resources/bib/orionBibliography.shtml",
+        "imglink": "/src/assets/orion.png"
+    }
+]
