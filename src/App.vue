@@ -26,7 +26,7 @@
         <v-col class="ma-6">
           <router-link to="/">
             <v-img class="mx-auto"
-            src="/src/assets/Logo.png" alt="Logo"  style="width: 300px;"/>
+            src="/src/assets/Logo.png" alt="Logo"  style="width: 350px;"/>
           </router-link>
         </v-col>
       </v-row>
@@ -150,9 +150,9 @@ export default {
 </script>
 
 <style scoped>
-.bg {
+/* .bg {
   background: url('./assets/background_white_pattern.jpg');
-}
+} */
 
 </style>  
 

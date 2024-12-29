@@ -14,12 +14,13 @@ import * as directives from 'vuetify/directives'
 import { md3 } from 'vuetify/blueprints'
 import colors from 'vuetify/util/colors'
 
+
 const vuetify = createVuetify({
   blueprint: md3,
   components,
   directives,
   theme: {
-    defaultTheme: 'uniquely_balanced',
+    defaultTheme: 'uniquely_balanced_2',
     themes: {
       light: {
         colors: {
@@ -46,12 +47,38 @@ const vuetify = createVuetify({
           //Uniquely Balanced Pantone 2025
           primary: '#9c4c8d', //Pantone 18-3223 TCX Cattleya Orchid
           'primary-darken-1': '#ca80b1', //Pantone 16-3116 TCX Opera Mauve
-          //secondary: '#F0EFEE', //Arrière planc blanc cassé pour texte
+          background: '#F0EFEE', //Arrière planc blanc cassé pour texte
           'secondary-darken-1': '#D16F52', // PANTONE™ 16-1441 TCX - Arabesque
           'secondary-darken-2': '#d8ae48', // PANTONE* 14-0952 TCX - Spicy Mustard
           'secondary-darken-3': '#33Becc', // PANTONE™ 15-4825 TCX - Blue Curacao
           'secondary-darken-4': '#a4786a', //PANTONE* 17-1230 TCX - Mocha Mousse
           secondary: '##FF968D', //PANTONE* 15-1435 TCX - Desert Flower
+        },
+      },
+      uniquely_balanced_2: {
+        colors: {
+          //Uniquely Balanced Pantone 2025
+          primary: '#9c4c8d', //Pantone 18-3223 TCX Cattleya Orchid
+          'secondary-darken-4': '#ca80b1', //Pantone 16-3116 TCX Opera Mauve
+          'primary-darken-1': '#D16F52', // PANTONE™ 16-1441 TCX - Arabesque
+          'secondary-darken-1': '#d8ae48', // PANTONE* 14-0952 TCX - Spicy Mustard
+          'secondary-darken-3': '#33Becc', // PANTONE™ 15-4825 TCX - Blue Curacao
+          'secondary-darken-2': '#a4786a', //PANTONE* 17-1230 TCX - Mocha Mousse
+          secondary: '##FF968D', //PANTONE* 15-1435 TCX - Desert Flower
+          background: '#F0EFEE', //Arrière planc blanc cassé pour texte
+        },
+      },
+      floral_pathway: {
+        colors: {
+          //Floral Pathway Pantone 2025
+          'secondary-darken-5':  '#8D9F70', // PANTONE™ 16-0123 TCX - Tendril
+          primary: '#7990C4', // PANTONE™ 16-4031 TCX - Cornflower Blue
+          'primary-darken-1': '#A393B7', // PANTONE™ 16-3815 TCX - Viola
+          'secondary-darken-1': 'C99E99#', // PANTONE™ 16-1511 TCX - Rose Tan
+          'secondary-darken-2': '#9D7A67', // PANTONE* 17-1230 TCX - Mocha Mousse
+          'secondary-darken-3': '#A69A8F', // PANTONE™ 16-1407 TCX - Cobblestone
+          'secondary-darken-4': '#978C57', // PANTONE™ 16-0632 TCX - Willow
+          secondary: '#F0E9E0', // PANTONE™ 11-0604 TCX - Gardenia
         },
       },
       deliciousness: {
@@ -87,57 +114,8 @@ const vuetify = createVuetify({
   },
 })
 
-
 const app = createApp(App)
 
 app.use(router)
 app.use(vuetify)
 app.mount('#app')
-
-
-
-
-
-
-
-
-
-// Complete model of theme
-//
-// const myCustomLightTheme = {
-//   dark: false,
-//   colors: {
-//     background: '#FFFFFF',
-//     surface: '#FFFFFF',
-//     'surface-bright': '#FFFFFF',
-//     'surface-light': '#EEEEEE',
-//     'surface-variant': '#424242',
-//     'on-surface-variant': '#EEEEEE',
-//     primary: '#1867C0',
-//     'primary-darken-1': '#1F5592',
-//     secondary: '#48A9A6',
-//     'secondary-darken-1': '#018786',
-//     error: '#B00020',
-//     info: '#2196F3',
-//     success: '#4CAF50',
-//     warning: '#FB8C00',
-//   },
-//   variables: {
-//     'border-color': '#000000',
-//     'border-opacity': 0.12,
-//     'high-emphasis-opacity': 0.87,
-//     'medium-emphasis-opacity': 0.60,
-//     'disabled-opacity': 0.38,
-//     'idle-opacity': 0.04,
-//     'hover-opacity': 0.04,
-//     'focus-opacity': 0.12,
-//     'selected-opacity': 0.08,
-//     'activated-opacity': 0.12,
-//     'pressed-opacity': 0.12,
-//     'dragged-opacity': 0.08,
-//     'theme-kbd': '#212529',
-//     'theme-on-kbd': '#FFFFFF',
-//     'theme-code': '#F5F5F5',
-//     'theme-on-code': '#000000',
-//   }
-// }

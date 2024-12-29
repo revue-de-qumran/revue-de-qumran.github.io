@@ -3,7 +3,7 @@
     <v-row justify="center" class="d-flex flex-column flex-md-row">
         <v-col class="bg-secondary-darken-1"  col="12" md="2">
         </v-col>
-        <v-col class="bg-secondary pa-16" col="12"  md="8">
+        <v-col class="bg-secondary-darken-2 pa-16" col="12"  md="8">
 
                 <h1>Editorial Board</h1>
                 <br />
@@ -42,7 +42,7 @@
 
             
         </v-col>
-        <v-col  class="bg-secondary-darken-2" col="12"  md="2">
+        <v-col  class="bg-secondary" col="12"  md="2">
         </v-col>
     </v-row>
 
