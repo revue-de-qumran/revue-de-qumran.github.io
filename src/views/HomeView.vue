@@ -1,7 +1,7 @@
 <template>
     <v-img class="m-0" 
     gradient="to bottom, rgba(156,76,141,.2), rgba(209,111,83,.2)"
-    src="@/assets/sl-2.jpg"></v-img>
+    src="/assets/img/sl-2.jpg"></v-img>
 
         <!-- Scope -->
         <v-row class="d-flex flex-column flex-md-row">
@@ -95,6 +95,7 @@
 </template>
 
 <script>
+
 </script>
 
 <style scoped>

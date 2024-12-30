@@ -26,7 +26,7 @@
                     >
                         <v-card-title style="height:52px">
                             <div class="d-flex align-center">
-                            <img src="/src/assets/zenodo-icon-blue.svg" height="24" style="padding: 0px 8px 0px 0px;">
+                            <img src="/assets/img/zenodo-icon-blue.svg" height="24" style="padding: 0px 8px 0px 0px;">
                             Zenodo
                             </div>
                         </v-card-title>
