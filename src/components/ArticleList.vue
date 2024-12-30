@@ -138,7 +138,7 @@ export default {
   },
   methods: {
     loadCSV() {
-      const csvPath = "/src/assets/data/rdq_metadata.csv";
+      const csvPath = "/assets/data/rdq_metadata.csv";
       Papa.parse(csvPath, {
         download: true,
         header: true,

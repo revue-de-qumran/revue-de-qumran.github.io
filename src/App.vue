@@ -26,7 +26,7 @@
         <v-col class="ma-6">
           <router-link to="/">
             <v-img class="mx-auto"
-            :src="logo" alt="Logo"  style="width: 350px;"/>
+            src="/assets/img/Logo.png" alt="Logo"  style="width: 350px;"/>
           </router-link>
         </v-col>
       </v-row>
@@ -113,12 +113,10 @@ const setTheme = () => {
 </script>
 
 <script>
-import logo from '@/assets/Logo.png';
 export default {
   name: "App",
   data() {
     return {
-      logo,
       appTitle: 'Welcome !',
       drawer: false, // Contrôle de l'état du menu burger
       menuItems: [
