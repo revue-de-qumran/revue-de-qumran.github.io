@@ -26,7 +26,7 @@
         <v-col class="ma-6">
           <router-link to="/">
             <v-img class="mx-auto"
-            src="/src/assets/Logo.png" alt="Logo"  style="width: 350px;"/>
+            :src="logo" alt="Logo"  style="width: 350px;"/>
           </router-link>
         </v-col>
       </v-row>
@@ -113,22 +113,13 @@ const setTheme = () => {
 </script>
 
 <script>
+import logo from '@/assets/Logo.png';
 export default {
-  methods: {
-    // toggleTheme() {
-    //   const currentTheme = this.$vuetify.theme.global.name;
-    //   this.$vuetify.theme.global.name = currentTheme === 'light' ? 'dark' : 'light';
-    // },
-
-    //changeTheme() {
-    //  this.$vuetify.theme.global.name = selectedTheme;
-    //}
-  },
   name: "App",
   data() {
     return {
+      logo,
       appTitle: 'Welcome !',
-      //currentTheme: ref(this.$vuetify.theme.global.name),
       drawer: false, // Contrôle de l'état du menu burger
       menuItems: [
         { title: 'Home', path: '/', icon: 'mdi-home'},
@@ -141,20 +132,11 @@ export default {
         { title: 'Cahiers', path: '/cahiers', icon: 'mdi-book-open-blank-variant' },
         { title: 'Contact', path: '/contact', icon: 'mdi-email' },
       ],
-      //selectedTheme: 'light',
-      //themes:['light', 'dark']
     }
   },
 };
 
 </script>
-
-<style scoped>
-/* .bg {
-  background: url('./assets/background_white_pattern.jpg');
-} */
-
-</style>  
 
 <style>
 .v-field {
