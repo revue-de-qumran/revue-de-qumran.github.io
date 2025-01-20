@@ -14,7 +14,7 @@
                         <v-card-subtitle></v-card-subtitle>
                     </v-card-item>
                     <v-card-text>
-                        <p>Revue de Qumrân was founded by Jean Carmignac in 1958. It is an International leading journal dedicated to the study of the Dead Sea Scrolls and the significance of these manuscripts for our understanding of the Ancient Near East in the Hellenistic and Roman period. Whether it concerns ancient Jewish or Christian litterature, history, archaeology or epigraphy.</p>              
+                        <p>Revue de Qumrân was founded by Jean Carmignac in 1958. It is an International leading journal dedicated to the study of the Dead Sea Scrolls and the significance of these manuscripts for our understanding of the Ancient Near East in the Hellenistic and Roman period. Whether it concerns ancient Jewish or Christian literature, history, archaeology or epigraphy.</p>              
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -29,9 +29,9 @@
                         <v-card-subtitle></v-card-subtitle>
                     </v-card-item>
                     <v-card-text>
-                        <p>Revue de Qumrân aims to be the nodal point between the Dead Sea Scrolls and the history of biblical texts transmission, Septuagint and Samaritan Pentateuch studies, history of Hebrew and Aramaic languages, history of early Christianity (esp. historical Jesus, Pauline and Johannine studies), pseudepigraphical studies such as the books of Jubilees, Enoch, or the Testaments of the Twelve Patriarchs, the reevaluation of the so-calles apocryphal or deuterocanonical texts like the books of Ben Sira or Tobit, history of ancient text interpretations, Hebrew poetry, reevaluation of literary genres, Jewish liturgy or halakhic studies.<br>
+                        <p>Revue de Qumrân aims to be the nodal point between the Dead Sea Scrolls and the history of biblical texts transmission, Septuagint and Samaritan Pentateuch studies, history of Hebrew and Aramaic languages, history of early Christianity (esp. historical Jesus, Pauline and Johannine studies), pseudepigraphical studies such as the books of Jubilees, Enoch, or the Testaments of the Twelve Patriarchs, the reevaluation of the so-called apocryphal or deuterocanonical texts like the books of Ben Sira or Tobit, history of ancient text interpretations, Hebrew poetry, reevaluation of literary genres, Jewish liturgy or halakhic studies.<br>
                         <br>
-                        Revue de Qumrân also wants to be at the cutting edge of new emerging field like cultural, sociological, feminist, gender and postcolonial studies which have provided particular insights into these texts. The Revue aims to be at the heart of these approaches and the constant evolution of our disciplines.</p>
+                        Revue de Qumrân also wants to be at the cutting edge of new emerging fields like cultural, sociological, feminist, gender and postcolonial studies which have provided particular insights into these texts. The Revue aims to be at the heart of these approaches and the constant evolution of our disciplines.</p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -68,7 +68,7 @@
                         <p>Revue de Qumran offers <b>Green Open Access</b>. The <b>Green Open Access</b> allows authors to share the version of record (final published version) of their article on their institution or funder's repository. <b>Three years after publication, articles can be freely shared under CC-BY-NC-ND Licence</b>.</p>
                         <br>
                         <h2>Full Open Access</h2>
-                        <p>Authors can opt to pay an article-processing charge (APC) to make their final published version freely and permanently available online immediately after publication. For the Revue de Qumran the cost of the article-processing charge is <strong>15 euros per page</strong>. This gives the author the possibility to publish open access in a non-open access journal. If in a subscription journal the author does not choose to pay the APC, his article will be published in the normal manner, and will not be made freely available online.</p>
+                        <p>Authors can opt to pay an article-processing charge (APC) to make their final published version freely and permanently available online immediately after publication. This gives the author the possibility to publish open access in a non-open access journal. If in a subscription journal the author does not choose to pay the APC, his article will be published in the normal manner, and will not be made freely available online.</p>
                     </v-card-text>
                 </v-card>
             </v-col>

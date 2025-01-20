@@ -38,7 +38,7 @@
                 <h2>For scientific matters</h2>
                 <v-card class="my-5 pa-5">
                     <strong>Prof. Dr. Frédérique Rey</strong> <br />
-                    19, rue deu bois de Chênes <br />
+                    19, rue du bois de Chênes <br />
                     67320 Adamswiller <br />
                     France <br />
                     Email: frederique.rey@univ-lorraine.fr
