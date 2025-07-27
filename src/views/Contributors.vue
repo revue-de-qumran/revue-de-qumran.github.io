@@ -19,6 +19,7 @@
             409 Prospect Street <br />
             New Haven Connecticut <br />
             06511 USA <br />
+            <a href="mailto:eric.reymond@yale.edu">eric.reymond@yale.edu</a><br />            
             </v-alert>     
             <br>
             <v-divider></v-divider>
